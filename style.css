@@ -1,0 +1,59 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+div {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img.perfil {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: solid #BB99DD;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+ul.lista_De_links {
+    width: auto;
+    margin: 0 auto;
+    border: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+li.link {
+    width: 270px;
+    margin: 10px auto;
+    padding: 10px;
+    list-style: none;
+    border: solid #BB99DD;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.rodape {
+    margin: 20px;
+    border: 10px;
+    padding-top: 50px !important;
+    display: inline;
+    width: 270px;
+    height: 50px;   
+}
+
+div.rodape > ul > li {
+    list-style: none;
+    margin: 10px;
+    border: 10px;
+    padding: 7px;
+    display: inline;    
+}
